@@ -1,0 +1,150 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Raleway',Bold;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*Agregando estilo al Header*/
+div {
+  display: block;
+}
+.container a {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.heads,.container {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.cut {
+  width: 60px;
+  height: 60px;
+  float: right;
+}
+/*section one*/
+.image1 {
+  background-image: url(../assets/images/bg-home.jpg);
+  width: auto;
+  height: 400px;
+  color: white;
+  display: block;
+  margin-top: 61px;
+}
+.text-aling {
+  text-align: center;
+  display: block;
+  line-height: 80px;
+}
+.btn {
+  background-color: #53CA78;
+  border: none;
+  padding: 10px;
+}
+/*section two*/
+.section2 {
+  width: 100%;
+  height: auto;
+  background-color: #FA8072;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+.imgs {
+  display: inline-block;
+  width: 20%;
+  height: auto;
+}
+
+
+/*section three*/
+.computer, img {
+  width: 1000px;
+  height: auto;
+  display: block;
+  position: inherit;
+  right: 10px;
+}
+
+/*se añade color de fondo, a la letra, se lo posiciona como absoluto
+centramos el texto e indicamos que el ancho sera del 100% de la vista.*/
+footer {
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
